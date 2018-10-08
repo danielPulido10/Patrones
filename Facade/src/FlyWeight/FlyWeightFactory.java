@@ -39,7 +39,7 @@ public class FlyWeightFactory {
 	}
 	
 
-	public void añadirUsuario(IFlyWeight usEspe)
+	public void añadirUsuario(Usuario usEspe)
 	{
 		
 		if(!usBasicInf.containsKey(usEspe.getDocumento()))

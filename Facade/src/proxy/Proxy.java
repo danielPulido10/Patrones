@@ -9,14 +9,13 @@ import javax.swing.JOptionPane;
  *
  * @author Danielpulido10
  */
-public class Proxy implements IProxy{
+public class Proxy{
     
     
     Facade facade = new Facade();
     Usuario us;
     
-    @Override
-    public Long  operacion(String correo, String clave){
+    public String  operacion(String correo, String clave){
      
         int verUsuario = facade.verificarUsuario(correo, clave);
         if (verUsuario == 0) {
@@ -29,10 +28,6 @@ public class Proxy implements IProxy{
         
         return "";
     }
-
-   
-
-   
 
     
 }
