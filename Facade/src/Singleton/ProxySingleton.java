@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Singleton;
 
 /**
  *
  * @author samue
  */
+import proxy.*;
 public class ProxySingleton {
     private static ProxySingleton unicaInstancia = null;
 
@@ -27,6 +24,13 @@ unicaInstancia = new ProxySingleton();
 return unicaInstancia;
 
 }
+
+public String unicaInstancia(String correo, String contrasena){
+    Proxy proxy = new Proxy();
+    return proxy.operacion(correo, contrasena);
+}
+
+
 
 }
 
