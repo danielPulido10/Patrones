@@ -2,6 +2,25 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Singleton/ProxySingleton.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Decorate/PagoPSE.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Composite/Calle.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/FlyWeight/IFlyWeight.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Decorate/PagoPSEBanco.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/adapter/Conductor.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/FlyWeight/FlyWeightFactory.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/adapter/Reserva.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Decorate/PagoPSETarjeta.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Composite/Componente.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/adapter/Usuario.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/proxy/IProxy.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/adapter/Pasajero.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/facade/Facade.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Singleton/Client.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/proxy/Proxy.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Decorate/ComponenteD.java</file>
+            <file>file:/C:/Users/samue/OneDrive/Documentos/GitHub/Patrones/Facade/src/Composite/Ruta.java</file>
+        </group>
     </open-files>
 </project-private>
