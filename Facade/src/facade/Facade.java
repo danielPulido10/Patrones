@@ -298,47 +298,7 @@ public class Facade implements IProxy{
 
         return "" + "1. Crear registro de reserva \n" + "2. Listar reservas \n"
                         + "3. Modificar reserva \n" + "4. Eliminar reserva \n" + "0. salir \n";
-        /*
-        switch (opcion) {
-            case 1:
-                // Crear registro reserva
-                String nombreReserva = "Reserva " + usuario.hashCode();
-                String nombreRutaReservada = JOptionPane
-                        .showInputDialog("Introducir nombre de ruta a reservar");
-                int puestoRutaReservada = Integer.parseInt(JOptionPane.showInputDialog("Introducir puesto a reservar"));
-                crearRegistroReserva(nombreReserva, nombreRutaReservada,
-                        puestoRutaReservada, usuario.getDocumento());
-
-                break;
-            case 2:
-                // Listar reservas
-                JOptionPane.showMessageDialog(null, listarReservasPasajero(usuario.getDocumento()));
-                break;
-            case 3:
-                // Modificar reserva ponerle id a reserva
-
-                // Listar las reservas
-                String nombreReservaModificar = JOptionPane
-                        .showInputDialog("Introducir nombre de reserva a modificar\n" + listarReservasPas(usuario.getDocumento()));
-
-                //String lugarOrigenModificado = JOptionPane.showInputDialog("Introducir lugar origen");
-                //String lugarDestinoModificado = JOptionPane.showInputDialog("Introducir lugar destino");
-                String nombreRutaReservadaModificado = JOptionPane
-                        .showInputDialog("Introducir nombre de ruta a reservar");
-                int puestoRutaReservadaModificado = Integer.parseInt(JOptionPane.showInputDialog("Introducir puesto a reservar"));
-
-                modificarReservaPasajero(nombreReservaModificar, nombreRutaReservadaModificado, puestoRutaReservadaModificado,
-                        usuario.getDocumento());
-                break;
-            case 4:
-                // Eliminar reserva
-                String nombreReservaEliminar = JOptionPane
-                        .showInputDialog("Introducir nombre de reserva a eliminar");
-                eliminarReserva(nombreReservaEliminar, usuario.getDocumento());
-                break;
-            case 0:
-                break;
-        }*/
+        
     }
     
     public String MenuConductor(){
@@ -347,77 +307,7 @@ public class Facade implements IProxy{
         //int opcion = 0;
         return "" + "1. Crear ruta \n" + "2. Listar rutas \n"
 							+ "3. Modificar ruta \n" + "4. Eliminar ruta \n" + "0. Salir \n";
-					/*boolean agregarCalle;
-					switch (opcion) {
-					case 1:
-						// Crear registro ruta
-						String nombreRuta = JOptionPane.showInputDialog("Introducir nombre de ruta");
-						ArrayList<Componente> calles = new ArrayList<Componente>();
-						agregarCalle = true;
-						while (agregarCalle) {
-							String nombreCalle = JOptionPane.showInputDialog("Introducir nombre de calle");
-							String distanciaCalle = JOptionPane.showInputDialog("Introducir distancia de calle");
-							String coordenadaXOrigenCalle = JOptionPane
-									.showInputDialog("Introducir coordenada X de Origen");
-							String coordenadaYOrigenCalle = JOptionPane
-									.showInputDialog("Introducir coordenada Y de Origen");
-							String coordenadaXDestinoCalle = JOptionPane
-									.showInputDialog("Introducir coordenada X de Destino");
-							String coordenadaYDestinoCalle = JOptionPane
-									.showInputDialog("Introducir coordenada Y de Destino");
-							Componente calle = new Calle(coordenadaXOrigenCalle, coordenadaYOrigenCalle,
-									coordenadaXDestinoCalle, coordenadaYDestinoCalle, nombreCalle, distanciaCalle);
-							calles.add(calle);
-							int option = JOptionPane.showConfirmDialog(null, "¿Deseas agregar otra calle?");
-							if (option == JOptionPane.NO_OPTION) {
-								// Si se seleccionó en no agregar otra calle
-								agregarCalle = false;
-							}
-						}
-						crearRegistroRuta(nombreRuta, calles, usuario.getDocumento());
-						break;
-					case 2:
-						// Listar rutas
-						JOptionPane.showMessageDialog(null, listarRutasConductor(usuario.getDocumento()));
-						break;
-					case 3:
-						// Modificar ruta
-						String nombreRutaModificar = JOptionPane
-								.showInputDialog("Introducir nombre de ruta a modificar");
-						String nombreRutaNuevo = JOptionPane.showInputDialog("Introducir nuevo nombre de ruta");
-						ArrayList<Componente> callesModificadas = new ArrayList<Componente>();
-						agregarCalle = true;
-						while (agregarCalle) {
-							String nombreCalle = JOptionPane.showInputDialog("Introducir nombre de calle");
-							String distanciaCalle = JOptionPane.showInputDialog("Introducir distancia de calle");
-							String coordenadaXOrigenCalle = JOptionPane
-									.showInputDialog("Introducir coordenada X de Origen");
-							String coordenadaYOrigenCalle = JOptionPane
-									.showInputDialog("Introducir coordenada Y de Origen");
-							String coordenadaXDestinoCalle = JOptionPane
-									.showInputDialog("Introducir coordenada X de Destino");
-							String coordenadaYDestinoCalle = JOptionPane
-									.showInputDialog("Introducir coordenada Y de Destino");
-							Componente calle = new Calle(coordenadaXOrigenCalle, coordenadaYOrigenCalle,
-									coordenadaXDestinoCalle, coordenadaYDestinoCalle, nombreCalle, distanciaCalle);
-							callesModificadas.add(calle);
-							int option = JOptionPane.showConfirmDialog(null, "¿Deseas agregar otra calle?");
-							if (option == JOptionPane.NO_OPTION) {
-								// Si se seleccionó en no agregar otra calle
-								agregarCalle = false;
-							}
-						}
-						actualizarRuta(nombreRutaModificar, nombreRutaNuevo, callesModificadas,
-								usuario.getDocumento());
-						break;
-					case 4:
-						String nombreRutaEliminar = JOptionPane.showInputDialog(listarRutasConductor(usuario.getDocumento()) + " \n\n"
-								+ " Introducir nombre de ruta a eliminar");
-						eliminarRuta(nombreRutaEliminar, usuario.getDocumento());
-						break;
-					case 0:
-						break;
-					}*/
+					
         
     }
 
